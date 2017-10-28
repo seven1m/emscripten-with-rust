@@ -1,0 +1,7 @@
+[package]
+name = "emscripten-test"
+version = "0.1.0"
+authors = ["Tim Morgan <tim@timmorgan.org>"]
+
+[target.'cfg(target_os = "emscripten")'.dependencies]
+emscripten-sys = "0.3"
